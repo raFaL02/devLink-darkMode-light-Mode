@@ -155,3 +155,14 @@ footer {
     text-align: center;
     font-size: 14px;
 }
+
+/* media requiere */
+@media (min-width: 700px) {
+    :root {
+       --bg-url: url(../assets/bg.jpg);
+    }
+
+    .light {
+        --bg-url: url(../assets/bg-light.jpg);
+    }
+}
